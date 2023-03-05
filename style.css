@@ -1,0 +1,128 @@
+html.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.ping1 {
+  background-image: url(imge/alone1.jpg);
+  width: 100wh;
+  height: 100vh;
+}
+.ping2 {
+  background-image: url(imge/alone2.jpg);
+  width: 100wh;
+  height: 100vh;
+}
+.ping3 {
+  background-image: url(imge/alone5.jpg);
+  width: 100wh;
+  height: 100vh;
+}
+.ping4 {
+  background-image: url(imge/alone4.jpg);
+  width: 100wh;
+  height: 100vh;
+}
+.ping5 {
+  background-image: url(imge/alone3.jpg);
+  width: 100wh;
+  height: 100vh;
+}
+
+.ping1,
+.ping2,
+.ping3,
+.ping4,
+.ping5 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.textBg {
+  color: black;
+  padding: 20px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: darkgray;
+}
+.section-dark {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+.container{
+  position: absolute;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+ 
+}
+
+
+@media (max-width:932px){
+    html {
+      font-size: 90%;
+    };
+  }
+
+  @media (max-width:768px){
+    html{
+      font-size: 85%;
+    }
+  }
+
+  @media (max-width:624px){
+    html{
+   font-size: 85%; 
+   
+  }
+}
+  @media (max-width:600px){
+    html{
+   font-size: 85%;
+  }
+}
+
+@media (max-width:502px){
+  html{
+ font-size: 85%;
+}
+}
+@media (max-width:361px){
+  html{
+ font-size: 85%;
+}
+}
+@media (max-width:291px){
+  html,.ptext{
+ font-size: 70%;
+}
+}
+
